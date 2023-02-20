@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <h1>StopWatch ...</h1>
+
+    
+    <div class="main">
+        <h1 id="min">00</h1>
+        <h1 id="sec">00</h1>
+        <h1 id="msec">00</h1>
+    </div>
+
+    <button id="start" onclick="started()">Start</button>
+    <button id="pause" onclick="pause()">Pause</button>
+    <button id="reset" onclick="reset()">Reset</button>
+    <div><a href=""><i class="fa fa-play"></i></a></div>
+    <div><a href=""><i class="fa fa-stop"></i></a></div>
+    <div><a href=""><i class="fa fa-"></i></a></div>
+     -->
+
+    <!-- <div class="wrap">
+      <h1>JS StopWatch</h1>
+      <div class="timer">
+        <svg width="260" height="260">
+          <circle
+            class="defaultCircle"
+            cx="125"
+            cy="125"
+            r="120"
+            stroke="#680d62"
+            stroke-width="10"
+            fill="none"
+            stroke-linecap="round"
+          />
+          <circle
+            id="animateCircle"
+            cx="125"
+            cy="125"
+            r="120"
+            stroke="#680d62"
+            stroke-width="10"
+            fill="none"
+            stroke-linecap="round"
+          />
+        </svg>
+
+      
+        <span id="min">0</span>:
+        <span id="sec">0</span>:
+        <span id="msec">0</span>
+      </div>
+      <div class="option">
+        <a href="javascript:void(0)" id="play" onclick="started()"><i class="fa fa-play"></i>Play</a>
+        <a href="javascript:void(0)" id="stop" onclick="pause()"><i class="fa fa-stop"></i>Stop</a>
+        <a href="javascript:void(0)" id="reset" onclick="reset()"><i class="fa fa-undo"></i>Reset</a>
+      </div>
+    </div> -->
+
+
+    <div class="wrap">
+      <h1>JS StopWatch</h1>
+      <div class="timer">
+        <svg width="260" height="260">
+          <circle
+            class="defaultCircle"
+            cx="125"
+            cy="125"
+            r="120"
+            stroke="#680d62"
+            stroke-width="10"
+            fill="none"
+            stroke-linecap="round"
+          />
+          <circle
+            id="animateCircle"
+            cx="125"
+            cy="125"
+            r="120"
+            stroke="#680d62"
+            stroke-width="10"
+            fill="none"
+            stroke-linecap="round"
+          />
+        </svg>
+    
+      
+        <span id="min">00</span>:
+        <span id="sec">00</span>:
+        <span id="msec">00</span>
+      </div>
+      <div class="option">
+        <a href="javascript:void(0)" id="play" onclick="started()"><i class="fa fa-play"></i>Play</a>
+        <a href="javascript:void(0)" id="stop" onclick="pause()"><i class="fa fa-stop"></i>Stop</a>
+        <a href="javascript:void(0)" id="reset" onclick="reset()"><i class="fa fa-undo"></i>Reset</a>
+        <a href="javascript:void(0)" id="lap" onclick="lap()"><i class="fa fa-clock-o"></i>Lap</a>
+      </div>
+      
+    </div>
+    <div class="laps">
+      <h2>Laps:</h2>
+      <ul id="lapList">
+      </ul>
+    </div>
+    
+
+    <script src="app.js"></script>
+  </body>
+</html>
